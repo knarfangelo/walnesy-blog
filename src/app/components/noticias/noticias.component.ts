@@ -10,13 +10,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `
     <header>
       <h1>Noticias del Partido</h1>
-      <nav>
-        <ul>
-          <li><button>Todos</button></li>
-          <li><button>Aventura</button></li>
-          <li><button>Tecnologia</button></li>
-        </ul>
-      </nav>
+      <main>
+        <div>
+          
+        </div>
+        <div></div>
+      </main>
       
     </header>
   `,
