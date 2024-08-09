@@ -33,7 +33,7 @@ import { NavegacionComponent } from "../navegacion/navegacion.component";
           </div>
           <div class="seccion-3-2">
             <p class="correo">&#64;walnesyborquez</p>
-            <ul>
+            <ul class="redes">
               <li><a href=""><img src="inicio/instagram.svg" alt=""></a></li>
               <li><a href=""><img src="inicio/tiktok.svg" alt=""></a></li>
               <li><a href=""><img src="inicio/facebook.svg" alt=""></a></li>
