@@ -8,6 +8,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     CommonModule,
   ],
   template: `
+          <div class="relleno"></div>
+
     <nav>
       <ul class="paneles">
         <li><a href="">Inicio</a></li>

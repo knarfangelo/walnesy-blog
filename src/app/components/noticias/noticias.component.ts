@@ -11,14 +11,15 @@ import { noticiasJSON } from './BDNoticias/noticiasJSON';
   ],
   template: `
     <header>
-      <h1>NOTICIAS</h1> <main>
+      <h1>Noticias del Partido</h1> <main>
       @for (item of items; track $index) {
       
         <div class="noticia">
           <img src="panel-principal.jpg" alt="">
+          <p class="fecha">{{item.date}}</p>
           <h2>{{item.name}}</h2>
           <p>{{item.description}}</p>
-          <p class="fecha">{{item.date}}</p>
+        
           <a href="{{item.link}}" target="_blank">Leer más</a>
         </div>
       }
