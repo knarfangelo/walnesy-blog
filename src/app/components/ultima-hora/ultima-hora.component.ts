@@ -1,17 +1,17 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { INoticias } from './BDNoticias/INoticias';
-import { noticiasJSON } from './BDNoticias/noticiasJSON';
+import { noticiasJSON } from '../noticias/BDNoticias/noticiasJSON';
+import { INoticias } from '../noticias/BDNoticias/INoticias';
 
 @Component({
-  selector: 'app-noticias',
+  selector: 'app-ultima-hora',
   standalone: true,
   imports: [
     CommonModule,
   ],
   template: `
-    <header>
-      <h1>Noticias del Partido</h1> <main>
+     <header>
+      <h1>Última hora</h1> <main>
       @for (item of items; track $index) {
       
         <div class="noticia">
@@ -25,13 +25,10 @@ import { noticiasJSON } from './BDNoticias/noticiasJSON';
       }
       </main> 
     </header>
-    <img class="relleno" src="panel-3.jpg" alt="">
   `,
-  styleUrl: './noticias.component.scss',
+  styleUrl: './ultima-hora.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NoticiasComponent { 
-
-  items:INoticias[] = noticiasJSON;
-
-}
+export class UltimaHoraComponent { 
+  items:INoticias[] = noticiasJSON.slice(0, 3);
+ }

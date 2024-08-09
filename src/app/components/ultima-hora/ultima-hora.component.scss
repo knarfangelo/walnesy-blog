@@ -1,0 +1,32 @@
+header{
+  width: 95%;
+  margin: auto;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+  main{
+      display: flex;
+      gap: 50px;
+
+
+  }
+
+
+
+}
+
+.noticia{
+  width: 33%;
+  h2{
+      color: #22490E;
+  }
+}
+
+.imagenes{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.relleno{
+  margin: 50px 0;
+}

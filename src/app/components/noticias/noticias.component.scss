@@ -2,19 +2,33 @@ header{
     width: 95%;
     margin: auto;
     height: auto;
+    font-family: Arial, Helvetica, sans-serif;
 
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 50px;
+
+
     }
 
 
 
 }
 
-img{
+.noticia{
+    h2{
+        color: #22490E;
+    }
+}
+
+.imagenes{
     width: 100%;
     border-radius: 10px;
+}
+
+.relleno{
+    margin: 50px 0;
+    margin-bottom: 0px;
 }
