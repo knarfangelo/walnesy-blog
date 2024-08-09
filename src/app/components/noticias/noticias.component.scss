@@ -17,6 +17,13 @@ header{
 
 }
 
+img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
 .noticia{
     h2{
         color: #22490E;
@@ -32,4 +39,6 @@ header{
     margin: 50px 0;
     margin-bottom: 0px;
     width: 100%;
+    height: auto;
+    object-fit: contain;
 }

@@ -15,7 +15,7 @@ import { INoticias } from '../noticias/BDNoticias/INoticias';
       @for (item of items; track $index) {
       
         <div class="noticia">
-          <img class="imagenes" src="panel-principal.jpg" alt="">
+          <img class="imagenes" [src]="item.img" alt="">
           <p class="fecha">{{item.date}}</p>
           <h2>{{item.name}}</h2>
           <p>{{item.description}}</p>
