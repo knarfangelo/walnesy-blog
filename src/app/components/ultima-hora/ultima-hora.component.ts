@@ -25,6 +25,7 @@ import { INoticias } from '../noticias/BDNoticias/INoticias';
       }
       </main> 
     </header>
+    
   `,
   styleUrl: './ultima-hora.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
